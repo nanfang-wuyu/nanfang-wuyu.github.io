@@ -16,15 +16,15 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Very Brief Hexo-Github Blog Tutorial (Mac)Add sudo if you find permission denied. Install Needed Libraries Install Node Js:     brew install node  Install Hexo:     npm install -g hexo-cli     (run su">
+    <meta name="description" content="Very Brief Hexo-Github Blog Tutorial (Mac)Add sudo if you find permission denied. Install Needed Libraries Install Node Js:     brew install node  Install Hexo:     npm install -g hexo-cli (run sudo n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Very Brief Hexo-Github Blog Tutorial">
 <meta property="og:url" content="http://example.com/2023/12/09/Very-Brief-Hexo-Github-Blog-Tutorial/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Very Brief Hexo-Github Blog Tutorial (Mac)Add sudo if you find permission denied. Install Needed Libraries Install Node Js:     brew install node  Install Hexo:     npm install -g hexo-cli     (run su">
+<meta property="og:description" content="Very Brief Hexo-Github Blog Tutorial (Mac)Add sudo if you find permission denied. Install Needed Libraries Install Node Js:     brew install node  Install Hexo:     npm install -g hexo-cli (run sudo n">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-12-09T02:29:53.000Z">
-<meta property="article:modified_time" content="2023-12-09T02:30:24.938Z">
+<meta property="article:modified_time" content="2023-12-09T02:31:52.063Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -277,9 +277,9 @@
 <li><p>Install Node Js:     <code>brew install node</code></p>
 </li>
 <li><p>Install Hexo:     <code>npm install -g hexo-cli</code></p>
+<p>(run <code>sudo npm cache clean --force</code> before installing the hexo if you get a “Your cache folder contains root-owned files…” error)</p>
 </li>
 </ol>
-<p>  (run <code>sudo npm cache clean --force</code> before installing the hexo if you get a “Your cache folder contains root-owned files…” error)</p>
 <p>(Install Git..)</p>
 <h2 id="Start-with-Hexo"><a href="#Start-with-Hexo" class="headerlink" title="Start with Hexo"></a>Start with Hexo</h2><h3 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h3><ol>
 <li><p><code>cd &lt;Your Blog Folder Path&gt;</code>, like <code>cd Blog</code></p>
@@ -318,9 +318,8 @@
 <li><p>Install hexo-git deployer tool: <code>npm install hexo-deployer-git --save</code></p>
 </li>
 <li><p>modify _config.yml and save the file.</p>
-</li>
+<figure class="highlight nestedtext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs nestedtext"><span class="hljs-attribute">deploy</span><span class="hljs-punctuation">:</span><br> <span class="hljs-attribute">type</span><span class="hljs-punctuation">:</span> <span class="hljs-string">git</span><br> <span class="hljs-attribute">repository</span><span class="hljs-punctuation">:</span> <span class="hljs-string">git@github.com:username/username.github.io.git</span><br> <span class="hljs-attribute">branch</span><span class="hljs-punctuation">:</span> <span class="hljs-string">master</span><br><br><span class="hljs-comment"># Set the branch to &#x27;main&#x27; or &#x27;master&#x27; depends on your choice</span><br></code></pre></td></tr></table></figure></li>
 </ol>
-  <figure class="highlight nestedtext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs nestedtext"><span class="hljs-attribute">deploy</span><span class="hljs-punctuation">:</span><br>  <span class="hljs-attribute">type</span><span class="hljs-punctuation">:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attribute">repository</span><span class="hljs-punctuation">:</span> <span class="hljs-string">git@github.com:username/username.github.io.git</span><br>  <span class="hljs-attribute">branch</span><span class="hljs-punctuation">:</span> <span class="hljs-string">master</span><br><br><span class="hljs-comment"># Set the branch to &#x27;main&#x27; or &#x27;master&#x27; depends on your choice</span><br></code></pre></td></tr></table></figure>
 <h2 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h2><p>Let’s change a better theme.</p>
 <ol>
 <li><p>Go to your blog folder: <code>cd Blog</code></p>
@@ -416,12 +415,6 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
-                    
-                      <a href="/2023/12/09/Test/" title="Very Brief Hexo-Github Blog Tutorial">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Very Brief Hexo-Github Blog Tutorial</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
                     
                   </article>
                   <article class="post-next col-6">
